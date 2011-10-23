@@ -22,7 +22,7 @@ class Presupuesto extends CI_Controller
             case 'verid':       return call_user_func_array(array($this, $method), $params);
                                 break;
             
-            default:  $this->sysmsg->echo_msg('Error: La pagina solicitada no existe',3,'presupuesto/index');     
+            default:  $this->sysmsg->echo_msg('Error, la pagina solicitada no existe',3,'presupuesto/index');     
         }
     }
    
